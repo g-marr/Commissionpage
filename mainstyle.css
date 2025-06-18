@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("Sheet.png") no-repeat fixed top right;
+}
+#containter{
+    width: 800px;
+        margin: 0 auto;
+        background-color: rgba(176, 214, 238, 0.6);
+}
+.left{
+    width:380px;
+    height:200px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    float: left;
+    margin: 0px 10px 10px 15px;
+    padding: 30px 30px 30px 30px;
+}
+.right{
+    width:380px;
+    height:200px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+    padding: 30px 30px 30px 30px;
+}
+footer{
+    background-color: white;
+    clear: both;
+}
+header > h1{
+    text-align: center;
+    color: #fff;
+}
