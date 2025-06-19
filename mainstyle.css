@@ -4,36 +4,61 @@
     box-sizing: border-box;
 }
 body{
-    background: url("Sheet.png") no-repeat fixed top right;
+    background: url("menaces.png") no-repeat fixed top right;
 }
 #containter{
     width: 800px;
         margin: 0 auto;
+        position: relative;
         background-color: rgba(176, 214, 238, 0.6);
 }
 .left{
     width:380px;
     height:200px;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
     float: left;
-    margin: 0px 10px 10px 15px;
+    margin: 10px;
     padding: 30px 30px 30px 30px;
+    text-align: center;
 }
 .right{
     width:380px;
     height:200px;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
     float: left;
-    margin: 0px 0px 10px 0px;
+    margin: 10px;
     padding: 30px 30px 30px 30px;
+    text-align: center;
+}
+a:link{
+    text-align: center;
+    text-decoration: none;
+    color: white
+}
+a:hover{
+    color:hotpink
+}
+div > a{
+    background-color: rgba(40, 7, 33, 0.411)
+}
+#containertwo{
+    display: block;
+    margin:auto;
+    float: left;
+    visibility: hidden;
 }
 footer{
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     clear: both;
+    text-align: center;
 }
 header > h1{
     text-align: center;
-    color: #fff;
 }
