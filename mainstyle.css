@@ -47,9 +47,9 @@ a:hover{
 div > a{
     background-color: rgba(40, 7, 33, 0.411)
 }
-#containertwo{
+div img{
     display: block;
-    margin:auto;
+    margin:20px;
     float: left;
     visibility: hidden;
 }
@@ -59,6 +59,7 @@ footer{
     clear: both;
     text-align: center;
 }
-header > h1{
+body h1{
     text-align: center;
+    margin-top: 10px;
 }
