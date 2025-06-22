@@ -39,13 +39,10 @@ body{
 a:link{
     text-align: center;
     text-decoration: none;
-    color: white
+    color: white;
 }
 a:hover{
     color:hotpink
-}
-div > a{
-    background-color: rgba(40, 7, 33, 0.411)
 }
 div img{
     display: block;
@@ -62,4 +59,9 @@ footer{
 body h1{
     text-align: center;
     margin-top: 10px;
+}
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
